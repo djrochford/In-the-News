@@ -1,0 +1,15 @@
+<div class="row links-containter" >
+  <form ng-submit="submit()">
+    <ul class="link-list">
+      <li ng-repeat="doc in data">
+        <h3 class="headline">{{doc.headline.main}}</h3> <span class="archive" > Archive: <input type="checkbox" ng-model="selection[$index]"></span><br>
+        <h4 class="source">{{doc.source}}, {{doc.byline.original}}</h4><br>
+        <p class="snippet">{{doc.snippet}}</p><br>
+        <a class="url" href="{{doc.web_url}}">{{doc.web_url}}</a><br>
+      </li>
+      <br>
+    </ul>
+    <input class="archive-button" type="submit" value="Click to Archive">
+  </form>
+  <a href='#/search'>Return to Search</a>
+</div>

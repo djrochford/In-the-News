@@ -1,0 +1,19 @@
+<div class="row input-container">
+  <div class="col-6 form-container">
+    <h2>New Search</h2>
+    <form class="search-form" ng-submit="submitNew()" >
+      <input type="text" placeholder="What do you want to know about?" name="searchTerm" ng-model="searchTerm">
+      <input type="submit">
+    </form>
+  </div>
+  <div class="col-6 form-container">
+    <h2>Retrieve from Archive</h2>
+    <form class="search-form" ng-submit="submitArchive()">
+      <input type="text" placeholder="headline" ng-model="query.headline">
+      <input type="text" placeholder="source" ng-model="query.source">
+      <input type="text" placeholder="byline" ng-model="query.byline">
+      <input type="text" placeholder="snippet" ng-model="query.snippet"><br>
+      <input type="submit" value="Retrieve">
+    </form>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "name": "in_the_news",
+  "description": "Read the news? Get the App.",
+  "main": "index.js",
+  "authors": [
+    "Damien Rochford"
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "news",
+    "mvp"
+  ],
+  "homepage": "https://github.com/djrochford/In-the-News",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

@@ -1,0 +1,23 @@
+<html ng-app="newsApp">
+  <head>
+    <meta name="author" content="Damien Rochford">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headline</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href='styles/headline.css'>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/config/nytimes.js"></script>
+    <script src="/app/search/search.js"></script>
+    <script src="/app/links/links.js"></script>
+    <script src="/app/app.js"></script>
+  </head>
+  <body >
+    <h1>Headline</h1>
+    <div class="grid">
+      <div ng-view>
+      </div>
+    </div>
+  </body>
+</html>
+
